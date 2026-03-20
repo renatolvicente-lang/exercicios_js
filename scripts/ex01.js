@@ -7,7 +7,7 @@ function soma_numeros(){
         if(!isNaN(numero)){
             soma += numero;
         }else{
-            alert("Coloque um numero animal!!! BURRO DO CARALHO")
+            alert("Recomendo que coloque um numero!!")
         }
         
         continuar = confirm("Deseja Continuar a adicionar numeros? ");
