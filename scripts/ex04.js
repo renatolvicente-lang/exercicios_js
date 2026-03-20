@@ -8,7 +8,7 @@ function ordem_decre(){
         console.log("Agora os numeros em ordem decrescente");
         alert("Agora os numeros em ordem decrescente");
         
-        console.log(numeros[i]);
-        alert(numeros[i]);
+        console.log(numeros[j]);
+        alert(numeros[j]);
     }
 }
