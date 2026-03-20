@@ -11,8 +11,9 @@ function fin_anual(){
         gasto_mes = parseFloat(prompt("Gastos do mês " + i + ":"));
 
         ganho_ano += ganho_mes;
-        gasto_ano += ganho
+        gasto_ano += gasto_mes;
     }
 
-
+    alert("O ganho anual foi de : R$" + ganho_ano);
+    alert("O gasto anual foi de : R$" + gasto_ano);
 }
