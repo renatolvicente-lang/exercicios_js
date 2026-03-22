@@ -10,6 +10,10 @@ function vogal_cons(){
     }else if(letra == "u" || letra == "U"){
         alert("Sua letra é uma vogal!!");
     }else{
-        alert("Sua letra é uma consoante !!");
+        if(isNaN(letra)){
+            alert("Sua letra é uma consoante !!");
+        }else{
+            alert("Isso é um número!!");
+        }
     }
 }
