@@ -4,7 +4,7 @@ function ordem_decre(){
         numeros[i] = parseInt(prompt("Digite o "+ i +"º numero de 4: "));
     }
 
-    for(let j = 0; j < 3; j++){
+    for(let j = 3; j < 0; j--){
         console.log("Agora os numeros em ordem decrescente");
         alert("Agora os numeros em ordem decrescente");
         
