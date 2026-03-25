@@ -16,4 +16,12 @@ function fin_anual(){
 
     alert("O ganho anual foi de : R$" + ganho_ano);
     alert("O gasto anual foi de : R$" + gasto_ano);
+
+    let lucro = gasto_ano - ganho_ano;
+
+    if(lucro <= 0){
+        alert("Você está no lucro!!");
+    }else{
+        alert("Você está no prejuízo!!");
+    }
 }
